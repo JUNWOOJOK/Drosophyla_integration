@@ -1,0 +1,1 @@
+blastn  -query ../kimeric_read.fa  -subject ../blast_reference/dmel_bacteria.fa  -outfmt "7 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qlen"  -evalue 1e-6  -task megablast > blast_out_result
